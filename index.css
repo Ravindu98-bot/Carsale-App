@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fl{float: left;}
+.fr{float: right;}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url("cars2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: #010207c4;
+}
+.sub-header{
+    width: 100%;
+    background-color: #14365c83;
+    position: fixed;
+    top: 0;
+}
+.top-header{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+}
+.logo p{
+    padding: 25px 5% 0 0;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.808);
+    font-weight: bold;
+}
+.logo p span{color: #ff2855;}
+.nav{
+    width: 70%;
+    margin-top: 10px;
+}
+.nav ul{
+    text-align: right;
+    margin-top: 20px;
+}
+.nav ul li{
+    display: inline;
+    margin-left: 1%;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 20px 1%;
+    font-size: 16px;
+    color: #fff;
+}
+.nav ul li a:hover{color: #ff2855;}
+.home{color: #ff2855;}
+.bttm{
+    width: 80%;
+    margin: auto;
+}
+.text{
+    font-size: 52px;
+    margin: 20px 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btn-head{
+    width: 60%;
+    margin-top: 200px;
+}
+.btn-head h1{
+    text-align: center;
+    color: #29a6afdc;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.btn-head h1 span{color: #ED553D;}
+.bcom{
+    width: 30%;
+    height: 50px;
+    background-color: #ff2855;
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    float: right;
+}
+.bcom:hover{
+    background-color: #470606;
+    color: #ff2855;
+}
+.hr1{
+    margin-left: -450px;
+    font-style: italic;
+}
+.hr2{
+    margin-left: 50px;
+    font-style: italic;
+}
+.drp{
+    float: right;
+    margin-top: -100px;
+    margin-right: -150px;
+    
+}
+.drp2{
+    margin-top: 70px;
+    margin-right: 10px;
+    float: right;
+   
+}
+.drp1{
+    margin-top: 70px;
+    float: right;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: rgb(12, 11, 11);
+    float: left;
+    margin-top: 168px;
+}
+.ff{
+    width: 90%;
+    margin: auto;
+}
+.text1{
+    color: whitesmoke;
+    background-color: black;
+    line-height: 50px;
+    float: left;
+    font-size: 14px;
+}
+.text2{
+    color: whitesmoke;
+    background-color: black;
+    line-height: 50px;
+    float: right;
+    font-size: 14px;
+}
+/*Responsive*/
+@media only screen and (max-width:768px){
+    .header{
+        justify-content: space-between;
+    }
+    .nav{
+        display: none;
+    }
+    
+}
